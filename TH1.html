@@ -5,6 +5,27 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    let input = prompt("Nhap ten ngoi sao");
+let x= ["Polaris","Aldebaran","Deneb","Vega"," Altair","Dubhe","Regulus"]
+let y = ["Ursa Minor","Tarurus","Cygnus","Lyra","Aquila","Ursa Major","Leo"]
+function Find(x,y) {
+    for (let i = 0 ; i<x.length;i++){
+            if (x[i] === input.trim()){
+                return y[i];
+            }
+        }
+    return 'Không tìm thấy';
+}
+alert(Find(x,y))
 
+
+
+
+
+
+
+
+</script>
 </body>
 </html>
